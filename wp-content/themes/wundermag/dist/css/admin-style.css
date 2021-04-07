@@ -1,0 +1,118 @@
+.about-wrap .ocdi__title {
+	font-size: 34px;
+	margin: 20px 0;
+}
+.about-wrap .ocdi__title:before {
+	display: none;
+}
+.ocdi .notice {
+	position: relative;
+}
+.ocdi__intro-text p,
+.ocdi__intro-text ul {
+	font-size: 12px;
+}
+.ocdi__intro-text ul {
+	list-style-type: circle;
+	padding-left: 50px;
+}
+.ocdi__intro-text .about-description {
+	font-size: 15px;
+}
+.js-ocdi-ajax-loader {
+	position: fixed;
+	background: #fff;
+	padding: 50px;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	margin: 0;
+}
+.js-ocdi-ajax-loader {
+	box-shadow: 0 20px 50px 20px rgba(30, 32, 35, 0.07);
+}
+.ocdi .notice.notice-success {
+	position: fixed;
+	background: #fff;
+	padding: 50px;
+	display: block;
+	top: 50%;
+	left: 50%;
+	margin: 0;
+	margin-top: -100px;
+	margin-left: -350px;
+	max-width: 700px;
+}
+#customize-controls .acf-label .description {
+	color: #999;
+	font-size: 11px;
+}
+#customize-controls .description {
+	color: #999;
+	font-size: 11px;
+}
+.customize-control-kirki input {
+	font-size: 14px !important;
+}
+
+.acf-editor-wrap iframe {
+	height: 200px!important;
+}
+.acf-editor-wrap .mce-toolbar .mce-btn-group .mce-last {
+	display: none !important;
+}
+/* Kirki */
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single {
+	border-color: rgba(0, 0, 0, 0.1) !important;
+	border-radius: 4px !important;
+}
+.select2-container .select2-selection--single {
+	height: 35px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 33px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 33px !important;
+	width: 30px !important;
+}
+.customize-control input[type=tel], .customize-control input[type=url], .customize-control input[type=text], .customize-control input[type=password], .customize-control input[type=email], .customize-control input[type=number], .customize-control input[type=search] {
+	line-height: 26px;
+	border-radius: 4px;
+}
+.kirki-reset-section {
+	display: none !important;
+}
+.customize-control-kirki-toggle .switch {
+	background: #ccced0;
+	border: 1px solid #0000001a;
+	right: -8px;
+}
+.customize-control-kirki-toggle .switch {
+	background: #d8d8d8;
+}
+.customize-control-kirki-toggle input:checked + .switch {
+	background: #3498de4d;
+}
+.customize-control-kirki-toggle input:checked + .switch:after {
+	background: #3498DE !important;
+}
+.customize-control-kirki-toggle .switch:after {
+	background: #999;
+}
+.customize-control-kirki-slider input[type=range] {
+	background-color: rgba(0,0,0,.1) !important;
+}
+.customize-control-kirki-slider .wrapper input[type="range"]::-webkit-slider-thumb {
+	  background-color: #3498DE !important;
+	border: none !important;
+}
+.customize-control-kirki-slider .wrapper {
+		margin-top: -17px;
+}
+
+
+[id^=customize-control-post_share_sticky_] label {
+	padding-left: 15px;
+}
